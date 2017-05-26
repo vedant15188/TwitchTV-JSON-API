@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>TwitchTV-JSON-API Project</title>
+</head>
+<body id="theBody">
+<br>
+<div class="container">
+    <div class="row text-center"><i class="fa fa-twitch" aria-hidden="true"></i>TwitchTV-JSON-API Project</div><br><br>
+    <div class="row text-center">
+        <div class="col-xs-offset-2 col-xs-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <p class="panel-title">Twitch Streamers</p>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4"><button id="All" class="btn btn-block btn-warning">All</button></div>
+                        <div class="col-xs-12 col-sm-4"><button id="Online" class="btn btn-block btn-success">Online</button></div>
+                        <div class="col-xs-12 col-sm-4"><button id="Offline" class="btn btn-block btn-danger">Offline</button></div>
+                    </div>
+                </div>
+                <ul class="list-group text-left">
+                    <li class="list-group-item" id="ESL_SC2">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="OgamingSC2">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="cretetion">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="freecodecamp">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="storbeck">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="habathcx">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="RobotCaleb">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="noobs2ninjas">Display the channel link and status here!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#All").on('click',showAll);
+        $("#Online").on('click',showOnline);
+        $("#Offline").on('click',showOffline);
+    });
+</script>
+</body>
+</html>
