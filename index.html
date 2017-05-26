@@ -12,7 +12,7 @@
 <body id="theBody">
 <br>
 <div class="container">
-    <div class="row text-center"><i class="fa fa-twitch" aria-hidden="true"></i>TwitchTV-JSON-API Project</div><br><br>
+    <div class="row text-center"><i class="fa fa-twitch" aria-hidden="true"></i>TwitchTV-JSON-API Project</div><br>
     <div class="row text-center">
         <div class="col-xs-offset-2 col-xs-8">
             <div class="panel panel-primary">
@@ -27,14 +27,13 @@
                     </div>
                 </div>
                 <ul class="list-group text-left">
-                    <li class="list-group-item" id="ESL_SC2">Display the channel link and status here!</li>
-                    <li class="list-group-item" id="OgamingSC2">Display the channel link and status here!</li>
-                    <li class="list-group-item" id="cretetion">Display the channel link and status here!</li>
-                    <li class="list-group-item" id="freecodecamp">Display the channel link and status here!</li>
-                    <li class="list-group-item" id="storbeck">Display the channel link and status here!</li>
-                    <li class="list-group-item" id="habathcx">Display the channel link and status here!</li>
-                    <li class="list-group-item" id="RobotCaleb">Display the channel link and status here!</li>
-                    <li class="list-group-item" id="noobs2ninjas">Display the channel link and status here!</li>
+                    <li class="list-group-item" id="ESL_SC2"></li>
+                    <li class="list-group-item" id="OgamingSC2"></li>
+                    <li class="list-group-item" id="cretetion"></li>
+                    <li class="list-group-item" id="freecodecamp"></li>
+                    <li class="list-group-item" id="habathcx"></li>
+                    <li class="list-group-item" id="RobotCaleb"></li>
+                    <li class="list-group-item" id="noobs2ninjas"></li>
                 </ul>
             </div>
         </div>
@@ -42,6 +41,7 @@
 </div>
 <script>
     $(document).ready(function () {
+        showAll();
         $("#All").on('click',showAll);
         $("#Online").on('click',showOnline);
         $("#Offline").on('click',showOffline);

@@ -1,6 +1,18 @@
 #theBody {
-    background-color: #45d04a;
+    background-color: #ffd800;
     font-size: 60px;
+}
+
+.online {
+    background-color: #82da6b;
+}
+
+.offline {
+    background-color: #ee7254;
+}
+
+.list-group {
+    color: black;
 }
 
 .btn {
